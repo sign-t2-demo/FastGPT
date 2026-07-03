@@ -1,6 +1,6 @@
 # Tunduk 主题换肤任务
 
-> 状态：token 层替换与 SVG 素材换色已完成并提交（分支 `feat/tunduk-theme`，commit `09e323ced`，2026-07-03）；剩余品牌资产、浏览器目检两项待办，见文末。
+> 状态：token 层替换、SVG 素材换色、主应用 logo / favicon 替换已完成并提交（分支 `feat/tunduk-theme`，commit `09e323ced` / `383753872` / `523ed52ff`，2026-07-03）；剩余品牌文字资产、默认产品名、文档站换肤、浏览器目检待办，见文末。
 > 注意：`DateRangePicker`、`DateTimePicker`、`MySelect/index.tsx`、`config/tool/ToolRow.tsx` 四个文件存在**与本任务无关的存量 eslint 错误**（react-hooks 规则），pre-commit 的 lint-staged 会因此失败；本次提交经逐行核对（改动仅色值）后用 `--no-verify` 绕过。后续任何人改这四个文件都会遇到同样的问题，修复它们是独立任务。
 > 本文档自包含：不依赖任何对话上下文，任何人 / 任何 Agent 读完即可接手。
 
@@ -99,7 +99,8 @@ FastGPT 开源版默认是蓝色主题（主色 `#3370FF`）+ 冷灰中性色的
 - 分支 `feat/tunduk-theme`（从 `main` 切出）上共改 113 个文件，全部为等量行替换：
   - `packages/web/styles/theme.ts`：全部颜色 token + 组件 variants 里内联的 5 处海军蓝 boxShadow
   - 其余 112 个文件：散落在 `packages/{web,global}` 与 `projects/app` 的 ts/tsx/scss/css 中的硬编码旧色值，用本目录的 `sweep.py`（映射同 §4）批量替换
-- SVG 素材换色已完成：`sweep.py --svg` 替换 99 个 SVG（图标 + 插画），跳过 3 个品牌素材（`BRAND_EXCLUDE`：`logo.svg`、`botTextCN.svg`、`botTextEn.svg`）。`projects/app/public/imgs/avatar/` 下 8 个 `*Avatar.svg` 实为二进制位图（JPEG 魔数），不适用文本替换、与主题无关，未动。
+- SVG 素材换色已完成：`sweep.py --svg` 替换 100 个 SVG（图标 + 插画），跳过品牌素材 / 文件类型 / 国旗等不适合机械替换的资源。`projects/app/public/imgs/avatar/` 下 8 个 `*Avatar.svg` 为 UTF-16 SVG，文本脚本按 UTF-8 读取会跳过；它们属于头像素材，未纳入本轮主题色机械替换。
+- 主应用 logo / favicon 已完成：`projects/app/public/icon/logo.svg` 使用 Tunduk 图标源替换；`projects/app/public/favicon.ico` 已按 `16/32/48/64/128/256` 多尺寸重新生成。
 - 验证已通过：
   1. Figma 右板读回值与提案逐项一致（设计师零修改确认）
   2. `theme.ts` 改后逐块目检与右板一致
@@ -116,13 +117,13 @@ FastGPT 开源版默认是蓝色主题（主色 `#3370FF`）+ 冷灰中性色的
 
 ## 7. 待办（按优先级）
 
-1. **品牌资产替换**（需要设计师给文件 + 产品名确认）：
-   - `projects/app/public/icon/logo.svg`（代码常量 `LOGO_ICON`，定义在 `packages/global/common/system/constants.ts`）
-   - `projects/app/public/favicon.ico`
-   - `projects/app/public/imgs/botTextCN.svg` / `botTextEn.svg`（登录页文字 logo）
-   - `projects/app/src/service/common/system/index.ts` 中 `defaultFeConfigs.systemTitle`（现为 `'FastGPT'`）；开源版也可通过 MongoDB `systemConfigs` 集合的 `feConfigs` 覆盖
-2. **浏览器目检**：起本地环境（`docker compose -f deploy/dev/docker-compose.yml up -d` + `projects/app` 下 `cp .env.template .env.local` + 根目录 `pnpm i` + `pnpm dev`），对照 Figma 效果图（Cortex 文件 node `10-1899`）走查：应用编辑页、工作流编辑器、知识库、登录页、对话页。重点看：报错场景与品牌红的视觉区分、金色 warning 的可读性、暖灰在大面积表格里的观感。
-3. 品牌资产与目检修正产生的后续改动，继续按 Conventional Commits 提交到本分支。
+1. **品牌文字资产替换**（需要设计师给文件 + 产品名确认）：
+   - `projects/app/public/imgs/botTextCN.svg` / `botTextEn.svg`（登录页文字 logo / HelperBot 文字气泡），不适合按颜色脚本机械替换。
+   - `projects/app/src/service/common/system/index.ts` 中 `defaultFeConfigs.systemTitle`（现为 `'FastGPT'`）；开源版也可通过 MongoDB `systemConfigs` 集合的 `feConfigs` 覆盖。
+2. **Tunduk 图标源文件去留**：根目录 `tunduk.svg` 是本轮 logo / favicon 的源文件，当前是否纳入仓库、迁移到 `docs/tunduk-theme/`，或保持为本地临时文件，需要单独确认。
+3. **文档站换肤确认**：`document/` 下仍有 FastGPT logo 与蓝色主题类名 / 色值；如果 Tunduk 范围包含文档站，需要单独处理文档站 logo、主题色、manifest / metadata。
+4. **浏览器目检**：起本地环境（`docker compose -f deploy/dev/docker-compose.yml up -d` + `projects/app` 下 `cp .env.template .env.local` + 根目录 `pnpm i` + `pnpm dev`），对照 Figma 效果图（Cortex 文件 node `10-1899`）走查：应用编辑页、工作流编辑器、知识库、登录页、对话页。重点看：报错场景与品牌红的视觉区分、金色 warning 的可读性、暖灰在大面积表格里的观感。
+5. 品牌资产与目检修正产生的后续改动，继续按 Conventional Commits 提交到本分支。
 
 ## 8. 相关文件
 

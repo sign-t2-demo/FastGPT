@@ -149,7 +149,7 @@ const DateTimePicker = ({
                   border: 'none'
                 },
                 '.rdp-selected .rdp-day_button:hover': {
-                  backgroundColor: '#2860E0'
+                  backgroundColor: '#A50C22'
                 },
                 '.rdp-button_previous:hover, .rdp-button_next:hover': {
                   backgroundColor: '#FCE9EB',

@@ -107,7 +107,7 @@ const DateRangePicker = ({
                 border: 'none'
               },
               '.rdp-range_start .rdp-day_button:hover, .rdp-range_end .rdp-day_button:hover': {
-                backgroundColor: '#2860E0'
+                backgroundColor: '#A50C22'
               },
               '.rdp-button_previous:hover, .rdp-button_next:hover': {
                 backgroundColor: '#FCE9EB',
