@@ -149,7 +149,7 @@ const Workflow = () => {
               bg={'black'}
               _hover={{ bg: 'myGray.700' }}
               aria-label={''}
-              boxShadow={'0 4px 10px 0 rgba(19, 51, 107, 0.20), 0 0 1px 0 rgba(19, 51, 107, 0.50)'}
+              boxShadow={'0 4px 10px 0 rgba(74, 58, 40, 0.20), 0 0 1px 0 rgba(74, 58, 40, 0.50)'}
               onClick={() => {
                 if (isOpenTemplate) {
                   onCloseTemplate();
@@ -188,7 +188,7 @@ const Workflow = () => {
           onPaneContextMenu={onPaneContextMenu}
           onPaneClick={onPaneClick}
           snapToGrid
-          style={{ background: '#F7F8FA' }}
+          style={{ background: '#F4EFE7' }}
           {...(workflowControlMode === 'select'
             ? {
                 selectionMode: SelectionMode.Full,

@@ -75,7 +75,7 @@ const SearchTestImagePreviewItem = React.memo(function SearchTestImagePreviewIte
             bg={'myGray.400'}
             borderRadius={'50%'}
             boxShadow={
-              '0px 6.66667px 6.66667px rgba(19, 51, 107, 0.1), 0px 0px 1.66667px rgba(19, 51, 107, 0.08)'
+              '0px 6.66667px 6.66667px rgba(74, 58, 40, 0.1), 0px 0px 1.66667px rgba(74, 58, 40, 0.08)'
             }
             cursor={'pointer'}
             onClick={() => onRemove?.(item.key)}

@@ -160,11 +160,11 @@ const ActionButtons = ({
       >
         {t('dataset:dataset.ReTrain')}
       </ErrorActionButton>
-      <Box w={'1px'} height={'16px'} bg={'#E8EBF0'} />
+      <Box w={'1px'} height={'16px'} bg={'#ECE3D6'} />
       <ErrorActionButton icon={'edit'} isLoading={isEditLoading} onClick={() => onEdit(item)}>
         {t('dataset:dataset.Edit_Chunk')}
       </ErrorActionButton>
-      <Box w={'1px'} height={'16px'} bg={'#E8EBF0'} />
+      <Box w={'1px'} height={'16px'} bg={'#ECE3D6'} />
       <ErrorActionButton icon={'delete'} isLoading={isDeleteLoading} onClick={() => onDelete(item)}>
         {t('dataset:dataset.Delete_Chunk')}
       </ErrorActionButton>
@@ -657,7 +657,7 @@ const TrainingErrorList = ({
                   />
                 </Flex>
                 <Box pl={6} py={2.5}>
-                  <Box bg={'#FBFBFC'} borderRadius={'8px'} px={4} py={4}>
+                  <Box bg={'#FBF8F3'} borderRadius={'8px'} px={4} py={4}>
                     <Flex flexDir={'column'} gap={2.5}>
                       {group.items.map((item) => (
                         <Flex key={String(item._id)} alignItems={'center'} h={'28px'} gap={'32px'}>

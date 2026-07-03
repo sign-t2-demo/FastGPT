@@ -45,7 +45,7 @@ const MermaidBlock = ({ code }: { code: string }) => {
           },
           themeVariables: {
             fontSize: '14px',
-            primaryColor: '#d6e8ff',
+            primaryColor: '#F7D3D8',
             primaryTextColor: '#485058',
             primaryBorderColor: '#fff',
             lineColor: '#5A646E',

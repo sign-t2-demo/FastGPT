@@ -33,7 +33,7 @@ const QuickApps = ({ variant = 'desktop' }: QuickAppsProps) => {
           py="8px"
           maxW={isMobile ? '100%' : undefined}
           cursor="pointer"
-          _hover={{ bg: '#F0F4FF', borderColor: '#C5D7FF', color: 'primary.600' }}
+          _hover={{ bg: '#FCE9EB', borderColor: '#F2ACB5', color: 'primary.600' }}
           bg="white"
           color="myGray.600"
           borderColor="myGray.200"

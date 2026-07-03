@@ -224,7 +224,7 @@ export const MultipleRowSelect = ({
           {...ButtonProps}
           {...(isOpen
             ? {
-                boxShadow: '0px 0px 0px 2.4px rgba(51, 112, 255, 0.15)',
+                boxShadow: '0px 0px 0px 2.4px rgba(200, 16, 46, 0.15)',
                 borderColor: 'primary.600',
                 color: 'primary.700',
                 bg: 'white !important'
@@ -432,7 +432,7 @@ export const MultipleRowArraySelect = ({
           ? {
               borderColor: 'primary.600',
               color: 'primary.700',
-              boxShadow: '0px 0px 0px 2.4px rgba(51, 112, 255, 0.15)',
+              boxShadow: '0px 0px 0px 2.4px rgba(200, 16, 46, 0.15)',
               bg: 'white !important'
             }
           : {

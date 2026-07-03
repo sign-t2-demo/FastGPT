@@ -153,7 +153,7 @@ export default function VariableLabelPickerPlugin({
                             ref={selectedIndex === child.index ? highlightedItemRef : null}
                             {...(selectedIndex === child.index
                               ? {
-                                  bg: '#1118240D',
+                                  bg: '#1F1A170D',
                                   color: 'primary.700'
                                 }
                               : {
@@ -161,7 +161,7 @@ export default function VariableLabelPickerPlugin({
                                   color: 'myGray.600'
                                 })}
                             _hover={{
-                              bg: '#1118240D',
+                              bg: '#1F1A170D',
                               color: 'primary.700'
                             }}
                             onMouseDown={() => {

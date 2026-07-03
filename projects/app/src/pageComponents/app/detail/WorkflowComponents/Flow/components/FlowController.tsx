@@ -97,7 +97,7 @@ const FlowController = React.memo(function FlowController() {
             width: 150,
             marginBottom: 62,
             borderRadius: '10px',
-            boxShadow: '0px 0px 1px rgba(19, 51, 107, 0.10), 0px 4px 10px rgba(19, 51, 107, 0.10)'
+            boxShadow: '0px 0px 1px rgba(74, 58, 40, 0.10), 0px 4px 10px rgba(74, 58, 40, 0.10)'
           }}
           pannable
           nodeComponent={MiniMapNode}
@@ -114,7 +114,7 @@ const FlowController = React.memo(function FlowController() {
             alignItems: 'center',
             gap: '2px',
             boxShadow:
-              '0px 0px 1px 0px rgba(19, 51, 107, 0.20), 0px 12px 16px -4px rgba(19, 51, 107, 0.20)'
+              '0px 0px 1px 0px rgba(74, 58, 40, 0.20), 0px 12px 16px -4px rgba(74, 58, 40, 0.20)'
           }}
         >
           {/* Control Mode */}
@@ -184,7 +184,7 @@ const FlowController = React.memo(function FlowController() {
               }}
               style={{
                 ...buttonStyle,
-                ...(presentationMode ? { backgroundColor: 'rgba(17, 24, 36, 0.05)' } : {})
+                ...(presentationMode ? { backgroundColor: 'rgba(31, 26, 23, 0.05)' } : {})
               }}
               className={`${styles.customControlButton}`}
             >

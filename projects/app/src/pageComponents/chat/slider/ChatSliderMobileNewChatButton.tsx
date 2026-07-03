@@ -25,11 +25,11 @@ const ChatSliderMobileNewChatButton = () => {
       px="20px"
       py="8px"
       borderRadius="9999px"
-      bg="#3370FF"
+      bg="#C8102E"
       color="white"
-      boxShadow="0 1px 2px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08)"
-      _hover={{ bg: '#3370FF' }}
-      _active={{ bg: '#3370FF' }}
+      boxShadow="0 1px 2px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08)"
+      _hover={{ bg: '#C8102E' }}
+      _active={{ bg: '#C8102E' }}
       leftIcon={<MyIcon name="core/chat/chatLight" w="16px" h="16px" color="white" fill="white" />}
       onClick={() => {
         clearChatRecords();

@@ -169,7 +169,7 @@ const QuoteReader = ({
             _hover={
               item.sourceId
                 ? {
-                    bg: 'rgba(51, 112, 255, 0.08)',
+                    bg: 'rgba(200, 16, 46, 0.08)',
                     color: 'primary.600'
                   }
                 : undefined

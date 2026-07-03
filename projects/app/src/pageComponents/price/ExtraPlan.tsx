@@ -131,7 +131,7 @@ const ExtraPlan = ({ onPaySuccess }: { onPaySuccess?: () => void }) => {
           borderRadius={'16px'}
           borderWidth={'1px'}
           borderColor={'myGray.200'}
-          boxShadow={'0 1px 2px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.15)'}
+          boxShadow={'0 1px 2px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.15)'}
           overflow={'hidden'}
         >
           {subPlans?.activityExpirationTime && (
@@ -348,7 +348,7 @@ const ExtraPlan = ({ onPaySuccess }: { onPaySuccess?: () => void }) => {
           py={[4, 6]}
           borderRadius={'16px'}
           borderColor={'myGray.200'}
-          boxShadow={'0 1px 2px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.15)'}
+          boxShadow={'0 1px 2px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.15)'}
           flexDir="column"
           borderWidth={'1px'}
           gap={2}

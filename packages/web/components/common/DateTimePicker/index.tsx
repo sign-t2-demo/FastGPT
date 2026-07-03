@@ -141,10 +141,10 @@ const DateTimePicker = ({
             <Box
               sx={{
                 '.rdp-day_button:hover:not(:disabled)': {
-                  backgroundColor: '#E1EAFF'
+                  backgroundColor: '#F8D3D8'
                 },
                 '.rdp-selected .rdp-day_button': {
-                  backgroundColor: '#3370FF',
+                  backgroundColor: '#C8102E',
                   color: 'white',
                   border: 'none'
                 },
@@ -152,7 +152,7 @@ const DateTimePicker = ({
                   backgroundColor: '#2860E0'
                 },
                 '.rdp-button_previous:hover, .rdp-button_next:hover': {
-                  backgroundColor: '#F0F4FF',
+                  backgroundColor: '#FCE9EB',
                   borderRadius: '6px'
                 }
               }}
@@ -162,7 +162,7 @@ const DateTimePicker = ({
                 mode="single"
                 style={
                   {
-                    '--rdp-accent-color': '#3370FF'
+                    '--rdp-accent-color': '#C8102E'
                   } as React.CSSProperties
                 }
                 defaultMonth={selectedDate}

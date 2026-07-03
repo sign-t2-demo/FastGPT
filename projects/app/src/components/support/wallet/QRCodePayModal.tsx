@@ -149,15 +149,15 @@ const QRCodePayModal = ({
       alignItems: 'center',
       flex: '1 0 0',
       borderRadius: '7.152px',
-      border: isActive ? '1px solid #3370FF' : '1px solid #E8EBF0',
+      border: isActive ? '1px solid #C8102E' : '1px solid #ECE3D6',
       background: '#FFF',
       _hover: {
-        background: isActive ? '#FFF' : '#F7F8FA',
-        border: isActive ? '1px solid #3370FF' : '1px solid #E8EBF0'
+        background: isActive ? '#FFF' : '#F4EFE7',
+        border: isActive ? '1px solid #C8102E' : '1px solid #ECE3D6'
       },
       _active: {
         background: '#FFF',
-        borderColor: '#3370FF'
+        borderColor: '#C8102E'
       }
     }
   });

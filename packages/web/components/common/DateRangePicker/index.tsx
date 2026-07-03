@@ -99,10 +99,10 @@ const DateRangePicker = ({
           <Box
             sx={{
               '.rdp-day_button:hover:not(:disabled)': {
-                backgroundColor: '#E1EAFF'
+                backgroundColor: '#F8D3D8'
               },
               '.rdp-range_start .rdp-day_button, .rdp-range_end .rdp-day_button': {
-                backgroundColor: '#3370FF',
+                backgroundColor: '#C8102E',
                 color: 'white',
                 border: 'none'
               },
@@ -110,7 +110,7 @@ const DateRangePicker = ({
                 backgroundColor: '#2860E0'
               },
               '.rdp-button_previous:hover, .rdp-button_next:hover': {
-                backgroundColor: '#F0F4FF',
+                backgroundColor: '#FCE9EB',
                 borderRadius: '6px'
               }
             }}
@@ -121,8 +121,8 @@ const DateRangePicker = ({
               mode="range"
               style={
                 {
-                  '--rdp-accent-color': '#3370FF',
-                  '--rdp-accent-background-color': '#E1EAFF'
+                  '--rdp-accent-color': '#C8102E',
+                  '--rdp-accent-background-color': '#F8D3D8'
                 } as React.CSSProperties
               }
               defaultMonth={defaultDate.to}

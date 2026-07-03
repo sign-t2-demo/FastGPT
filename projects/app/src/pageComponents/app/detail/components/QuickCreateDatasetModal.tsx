@@ -247,7 +247,7 @@ const QuickCreateDatasetModal = ({
                   alignItems={'center'}
                   borderRadius={'8px'}
                   boxShadow={
-                    '0 1px 2px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08)'
+                    '0 1px 2px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08)'
                   }
                   gap={2}
                 >

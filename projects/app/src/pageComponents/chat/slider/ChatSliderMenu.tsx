@@ -55,7 +55,7 @@ const MobileClearHistoryConfirm = ({
           mx="16px"
           p="32px"
           borderRadius="10px"
-          boxShadow="0 8px 24px rgba(19, 51, 107, 0.16)"
+          boxShadow="0 8px 24px rgba(74, 58, 40, 0.16)"
           containerProps={{ zIndex: 1501 }}
         >
           <IconButton
@@ -147,7 +147,7 @@ const ChatSliderMenu = ({ menuConfirmButtonText }: Props) => {
         borderRadius={'999px'}
         borderColor={'myGray.250'}
         bg={'white'}
-        boxShadow={'0 1px 2px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08)'}
+        boxShadow={'0 1px 2px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08)'}
         color={'myGray.500'}
         _hover={{
           color: 'red.600',
@@ -187,7 +187,7 @@ const ChatSliderMenu = ({ menuConfirmButtonText }: Props) => {
           border={'1px solid'}
           borderColor={'myGray.200'}
           bg={'white'}
-          boxShadow={'0 1px 2px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08)'}
+          boxShadow={'0 1px 2px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08)'}
           leftIcon={
             <MyIcon
               name={'core/chat/chatLight'}

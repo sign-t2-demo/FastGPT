@@ -167,7 +167,7 @@ const TagManageModal = ({ onClose }: { onClose: () => void }) => {
             alignItems={'center'}
             color={'myGray.900'}
             pb={2}
-            borderBottom={'1px solid #E8EBF0'}
+            borderBottom={'1px solid #ECE3D6'}
             mx={8}
             pt={6}
           >
@@ -200,7 +200,7 @@ const TagManageModal = ({ onClose }: { onClose: () => void }) => {
           </Flex>
           <Flex px={8} w={'full'}>
             {newTag !== undefined && (
-              <Flex py={3} px={2} w={'full'} borderBottom={'1px solid #E8EBF0'}>
+              <Flex py={3} px={2} w={'full'} borderBottom={'1px solid #ECE3D6'}>
                 <Input
                   placeholder={t('dataset:tag.Add_new_tag')}
                   value={newTag}
@@ -227,7 +227,7 @@ const TagManageModal = ({ onClose }: { onClose: () => void }) => {
               return (
                 <Flex
                   py={2}
-                  borderBottom={'1px solid #E8EBF0'}
+                  borderBottom={'1px solid #ECE3D6'}
                   sx={{
                     '&:hover .icon-box': {
                       display: 'flex'
@@ -293,7 +293,7 @@ const TagManageModal = ({ onClose }: { onClose: () => void }) => {
                     <Box
                       className="icon-box"
                       display="none"
-                      _hover={{ bg: '#1118240D' }}
+                      _hover={{ bg: '#1F1A170D' }}
                       mr={2}
                       p={1}
                       borderRadius={'sm'}
@@ -308,7 +308,7 @@ const TagManageModal = ({ onClose }: { onClose: () => void }) => {
                     <Box
                       className="icon-box"
                       display="none"
-                      _hover={{ bg: '#1118240D' }}
+                      _hover={{ bg: '#1F1A170D' }}
                       mr={2}
                       p={1}
                       borderRadius={'sm'}
@@ -328,7 +328,7 @@ const TagManageModal = ({ onClose }: { onClose: () => void }) => {
                         <Box
                           className="icon-box"
                           display="none"
-                          _hover={{ bg: '#1118240D' }}
+                          _hover={{ bg: '#1F1A170D' }}
                           p={1}
                           borderRadius={'sm'}
                           cursor={'pointer'}
@@ -406,7 +406,7 @@ const AddTagToCollections = ({
 
   return (
     <>
-      <Flex alignItems={'center'} pb={2} mx={8} pt={6} borderBottom={'1px solid #E8EBF0'}>
+      <Flex alignItems={'center'} pb={2} mx={8} pt={6} borderBottom={'1px solid #ECE3D6'}>
         <MyIcon
           name="common/backFill"
           w={4}

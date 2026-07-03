@@ -289,7 +289,7 @@ const ChatInput = ({
               h={9}
               p={[1, 2]}
               bg={
-                isChatting ? 'primary.50' : canSendMessage ? 'primary.500' : 'rgba(17, 24, 36, 0.1)'
+                isChatting ? 'primary.50' : canSendMessage ? 'primary.500' : 'rgba(31, 26, 23, 0.1)'
               }
               borderRadius={['md', 'lg']}
               cursor={isChatting ? 'pointer' : canSendMessage ? 'pointer' : 'not-allowed'}
@@ -328,7 +328,7 @@ const ChatInput = ({
   ]);
 
   const activeStyles: FlexProps = {
-    boxShadow: '0px 5px 20px -4px rgba(19, 51, 107, 0.13)',
+    boxShadow: '0px 5px 20px -4px rgba(74, 58, 40, 0.13)',
     border: '1px solid',
     borderColor: 'myGray.250'
   };
@@ -381,7 +381,7 @@ const ChatInput = ({
               _hover: activeStyles,
               border: '1px solid',
               borderColor: 'myGray.200',
-              boxShadow: `0px 5px 16px -4px rgba(19, 51, 107, 0.08)`
+              boxShadow: `0px 5px 16px -4px rgba(74, 58, 40, 0.08)`
             })}
         onClick={() => TextareaDom?.current?.focus()}
       >

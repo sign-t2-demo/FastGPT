@@ -174,7 +174,7 @@ const QuoteItem = ({
                         {...(theme && {
                           colorScheme: theme.colorScheme
                         })}
-                        bg="#E8EBF0"
+                        bg="#ECE3D6"
                       />
                     )}
                   </Box>

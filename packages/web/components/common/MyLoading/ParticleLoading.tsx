@@ -120,7 +120,7 @@ const ParticleLoading = ({ size = 'lg' }: { size?: SpinnerProps['size'] }) => {
               ref={(el) => {
                 particleRefs.current[i] = el;
               }}
-              fill="#3370FF"
+              fill="#C8102E"
             />
           ))}
         </g>

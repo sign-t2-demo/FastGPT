@@ -438,7 +438,7 @@ const PriceTiersTable = React.memo(function PriceTiersTable({
             }
           }}
         >
-          <Thead bg={'#FBFBFC'} h={'32px'}>
+          <Thead bg={'#FBF8F3'} h={'32px'}>
             <Tr>
               <Th
                 textTransform={'none'}

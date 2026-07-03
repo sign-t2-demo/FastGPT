@@ -149,7 +149,7 @@ const ToolCard = ({
         onClickCard?.();
       }}
       _hover={{
-        boxShadow: '0 4px 4px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08);',
+        boxShadow: '0 4px 4px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08);',
         ...(showActionButton
           ? {
               '& .install-button': {

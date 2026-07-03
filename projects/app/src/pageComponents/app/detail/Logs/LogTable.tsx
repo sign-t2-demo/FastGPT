@@ -501,7 +501,7 @@ const LogTable = ({
           borderColor={'myGray.200'}
           _focusWithin={{
             borderColor: 'primary.600',
-            boxShadow: '0 0 0 2.4px rgba(51, 112, 255, 0.15)'
+            boxShadow: '0 0 0 2.4px rgba(200, 16, 46, 0.15)'
           }}
           pl={3}
         >

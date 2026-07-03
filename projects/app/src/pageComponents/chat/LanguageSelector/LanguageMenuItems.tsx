@@ -40,13 +40,13 @@ const LanguageMenuItems = ({ currentLang, variant = 'menuItem', onSelect }: Prop
           py={1}
           borderRadius="4px"
           cursor="pointer"
-          bg={isSelected ? 'rgba(17, 24, 36, 0.05)' : 'transparent'}
+          bg={isSelected ? 'rgba(31, 26, 23, 0.05)' : 'transparent'}
           color={isSelected ? 'primary.600' : 'myGray.600'}
           fontSize={isMobileList ? '16px' : '14px'}
           fontWeight={isMobileList ? 500 : undefined}
           lineHeight={isMobileList ? '24px' : '20px'}
           letterSpacing={isMobileList ? '0.15px' : undefined}
-          _hover={{ bg: 'rgba(17, 24, 36, 0.05)' }}
+          _hover={{ bg: 'rgba(31, 26, 23, 0.05)' }}
           onClick={() => onSelect(lng)}
         >
           {optionContent}
@@ -59,11 +59,11 @@ const LanguageMenuItems = ({ currentLang, variant = 'menuItem', onSelect }: Prop
         key={lng}
         h="44px"
         borderRadius="6px"
-        bg={isSelected ? 'rgba(17, 24, 36, 0.05)' : 'transparent'}
+        bg={isSelected ? 'rgba(31, 26, 23, 0.05)' : 'transparent'}
         color={isSelected ? 'primary.600' : 'myGray.900'}
         fontSize="14px"
         lineHeight="20px"
-        _hover={{ bg: 'rgba(17, 24, 36, 0.05)' }}
+        _hover={{ bg: 'rgba(31, 26, 23, 0.05)' }}
         onClick={() => onSelect(lng)}
       >
         {optionContent}

@@ -19,7 +19,7 @@ const TestModeBetaTag = () => {
         py={'4px'}
         borderRadius={'6px'}
         bg={'#FFFAEB'}
-        color={'#DC6803'}
+        color={'#B58800'}
         fontSize={'10px'}
         lineHeight={'10px'}
         fontWeight={'500'}

@@ -18,7 +18,7 @@ const DesktopHomeHero = () => {
         fallbackSrc={DEFAULT_LOGO_BANNER_URL}
       />
       <Box
-        color="#111824"
+        color="#1F1A17"
         fontFamily='"PingFang SC"'
         fontSize="32px"
         fontStyle="normal"

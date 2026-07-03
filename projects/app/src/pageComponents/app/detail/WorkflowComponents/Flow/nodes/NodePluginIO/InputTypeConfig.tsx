@@ -387,7 +387,7 @@ const InputTypeConfig = ({
   );
 
   return (
-    <Stack flex={1} borderLeft={'1px solid #F0F1F6'} justifyContent={'space-between'}>
+    <Stack flex={1} borderLeft={'1px solid #F1EAE0'} justifyContent={'space-between'}>
       <Flex flexDirection={'column'} p={8} gap={4} flex={'1 0 0'} overflow={'auto'}>
         <Flex alignItems={'center'}>
           <FormLabel flex={'0 0 132px'} fontWeight={'medium'}>

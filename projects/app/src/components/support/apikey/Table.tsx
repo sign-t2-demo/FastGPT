@@ -400,7 +400,7 @@ const ApiKeyTable = ({ mode = 'account', appId }: ApiKeyTableProps) => {
                 fontSize={'sm'}
                 _hover={{
                   borderColor: 'primary.300',
-                  boxShadow: '0 0 0 2px rgba(51, 112, 255, 0.12)'
+                  boxShadow: '0 0 0 2px rgba(200, 16, 46, 0.12)'
                 }}
                 onClick={() => copyData(baseUrl, t('common:support.openapi.Copy success'))}
               >

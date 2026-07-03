@@ -211,7 +211,7 @@ const JSONEditor = ({
           'editor.background': '#ffffff00',
           'editorLineNumber.foreground': '#aaa',
           'editorOverviewRuler.border': '#ffffff00',
-          'editor.lineHighlightBackground': '#F7F8FA',
+          'editor.lineHighlightBackground': '#F4EFE7',
           'scrollbarSlider.background': '#E8EAEC',
           'editorIndentGuide.activeBackground': '#ddd',
           'editorIndentGuide.background': '#eee'
@@ -260,7 +260,7 @@ const JSONEditor = ({
             }
           : {
               borderColor: 'primary.600',
-              boxShadow: '0px 0px 0px 2.4px rgba(51, 112, 255, 0.15)',
+              boxShadow: '0px 0px 0px 2.4px rgba(200, 16, 46, 0.15)',
               bg: 'white'
             }
       }

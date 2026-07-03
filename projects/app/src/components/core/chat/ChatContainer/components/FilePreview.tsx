@@ -44,7 +44,7 @@ const RenderFilePreview = ({
             <Box
               border={'sm'}
               boxShadow={
-                '0px 2.571px 6.429px 0px rgba(19, 51, 107, 0.08), 0px 0px 0.643px 0px rgba(19, 51, 107, 0.08)'
+                '0px 2.571px 6.429px 0px rgba(74, 58, 40, 0.08), 0px 0px 0.643px 0px rgba(74, 58, 40, 0.08)'
               }
               rounded={'md'}
               position={'relative'}

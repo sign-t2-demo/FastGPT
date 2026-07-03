@@ -184,7 +184,7 @@ const TagManageModal = ({
         alignItems={'center'}
         color={'myGray.900'}
         pb={2}
-        borderBottom={'1px solid #E8EBF0'}
+        borderBottom={'1px solid #ECE3D6'}
         mx={8}
         pt={6}
       >
@@ -219,7 +219,7 @@ const TagManageModal = ({
       </Flex>
       <Flex px={8} w={'full'}>
         {newTag !== undefined && (
-          <Flex py={3} px={2} w={'full'} borderBottom={'1px solid #E8EBF0'}>
+          <Flex py={3} px={2} w={'full'} borderBottom={'1px solid #ECE3D6'}>
             <Input
               placeholder={t('account_apikey:tag_name')}
               value={newTag}
@@ -274,7 +274,7 @@ const TagManageModal = ({
                           opacity: snapshot.isDragging ? 0.8 : 1
                         }}
                         py={2}
-                        borderBottom={'1px solid #E8EBF0'}
+                        borderBottom={'1px solid #ECE3D6'}
                         sx={{
                           '&:hover .icon-box': {
                             display: 'flex'
@@ -333,7 +333,7 @@ const TagManageModal = ({
                             <Box
                               className="icon-box"
                               display="none"
-                              _hover={{ bg: '#1118240D' }}
+                              _hover={{ bg: '#1F1A170D' }}
                               mr={2}
                               p={1}
                               borderRadius={'sm'}
@@ -353,7 +353,7 @@ const TagManageModal = ({
                                 <Box
                                   className="icon-box"
                                   display="none"
-                                  _hover={{ bg: '#1118240D' }}
+                                  _hover={{ bg: '#1F1A170D' }}
                                   p={1}
                                   borderRadius={'sm'}
                                   cursor={'pointer'}

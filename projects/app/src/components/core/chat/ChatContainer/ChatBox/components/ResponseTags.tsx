@@ -54,7 +54,7 @@ const CitationListCard = React.memo(function CitationListCard({
         bg={'white'}
         overflow={'hidden'}
         _hover={{
-          background: 'linear-gradient(0deg, #FFF 56.25%, #F7F8FA 100%)'
+          background: 'linear-gradient(0deg, #FFF 56.25%, #F4EFE7 100%)'
         }}
       >
         <Box

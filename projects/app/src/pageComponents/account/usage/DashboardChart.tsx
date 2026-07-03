@@ -32,7 +32,7 @@ const CustomTooltip = ({ active, payload }: TooltipProps<ValueType, NameType>) =
         border={'0.5px solid'}
         borderColor={'myGray.200'}
         boxShadow={
-          '0px 24px 48px -12px rgba(19, 51, 107, 0.20), 0px 0px 1px 0px rgba(19, 51, 107, 0.20)'
+          '0px 24px 48px -12px rgba(74, 58, 40, 0.20), 0px 0px 1px 0px rgba(74, 58, 40, 0.20)'
         }
       >
         <Box fontSize={'mini'} color={'myGray.600'} mb={3}>
@@ -146,20 +146,20 @@ const DashboardChart = ({
             padding={{ left: 40, right: 40 }}
             tickMargin={10}
             tickSize={0}
-            tick={{ fontSize: '12px', color: '#667085', fontWeight: '500' }}
+            tick={{ fontSize: '12px', color: '#7A6F63', fontWeight: '500' }}
           />
           <YAxis
             axisLine={false}
             tickSize={0}
             tickMargin={12}
-            tick={{ fontSize: '12px', color: '#667085', fontWeight: '500' }}
+            tick={{ fontSize: '12px', color: '#7A6F63', fontWeight: '500' }}
           />
           <CartesianGrid strokeDasharray="3 3" horizontal={true} vertical={false} />
           <Tooltip content={<CustomTooltip />} />
           <Line
             type="monotone"
             dataKey="totalPoints"
-            stroke="#5E8FFF"
+            stroke="#DF4F64"
             strokeWidth={2.5}
             dot={false}
           />

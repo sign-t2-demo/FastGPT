@@ -126,7 +126,7 @@ const SearchButton = (props: ButtonProps) => {
             variant="whitePrimary"
             _hover={{ bg: 'myGray.50' }}
             border={'none'}
-            boxShadow={'0 4px 10px 0 rgba(19, 51, 107, 0.20), 0 0 1px 0 rgba(19, 51, 107, 0.50)'}
+            boxShadow={'0 4px 10px 0 rgba(74, 58, 40, 0.20), 0 0 1px 0 rgba(74, 58, 40, 0.50)'}
             onClick={() => setKeyword('')}
             {...props}
           />
@@ -149,7 +149,7 @@ const SearchButton = (props: ButtonProps) => {
       bg={'white'}
       alignItems={'center'}
       boxShadow={
-        '0px 20px 24px -8px rgba(19, 51, 107, 0.15), 0px 0px 1px 0px rgba(19, 51, 107, 0.15)'
+        '0px 20px 24px -8px rgba(74, 58, 40, 0.15), 0px 0px 1px 0px rgba(74, 58, 40, 0.15)'
       }
       border={'0.5px solid rgba(0, 0, 0, 0.13)'}
       maxW={['90vw', '550px']}

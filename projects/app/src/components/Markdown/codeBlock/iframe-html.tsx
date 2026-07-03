@@ -216,7 +216,7 @@ const IframeHtmlCodeBlock = ({
         borderRadius={'md'}
         overflow={'hidden'}
         boxShadow={
-          '0px 1px 2px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)'
+          '0px 1px 2px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)'
         }
       >
         <Flex

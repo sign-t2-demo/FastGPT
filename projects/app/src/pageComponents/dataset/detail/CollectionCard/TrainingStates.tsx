@@ -166,7 +166,7 @@ const ProgressView = ({
                 borderColor: 'primary.600'
               })}
               {...(isActive && {
-                boxShadow: '0 0 0 4px var(--Royal-Blue-100, #E1EAFF)'
+                boxShadow: '0 0 0 4px var(--Royal-Blue-100, #F8D3D8)'
               })}
               // Line
               {...(index !== statesArray.length - 1 && {

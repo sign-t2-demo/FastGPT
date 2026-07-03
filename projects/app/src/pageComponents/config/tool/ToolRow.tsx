@@ -41,7 +41,7 @@ const ToolRow = ({
       w={'full'}
       border={'1px solid transparent'}
       _hover={{
-        borderColor: 'rgba(51, 112, 255, 0.10)',
+        borderColor: 'rgba(200, 16, 46, 0.10)',
         bg: 'primary.50'
       }}
       fontSize={'mini'}

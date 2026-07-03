@@ -58,11 +58,11 @@ const CollectionQuoteItem = ({
         _hover={
           hasBeenSearched
             ? {
-                bg: isCurrentSelected ? 'blue.50' : 'rgba(51, 112, 255, 0.08)',
+                bg: isCurrentSelected ? 'blue.50' : 'rgba(200, 16, 46, 0.08)',
                 '& .hover-data': { visibility: 'visible' }
               }
             : {
-                bg: 'rgba(51, 112, 255, 0.08)',
+                bg: 'rgba(200, 16, 46, 0.08)',
                 '& .hover-data': { visibility: 'visible' }
               }
         }
@@ -114,7 +114,7 @@ const CollectionQuoteItem = ({
               px={1}
               py={1}
               boxShadow={
-                '0px 1px 2px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)'
+                '0px 1px 2px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)'
               }
               cursor={'pointer'}
               onClick={() => copyData(`${q}${a ? '\n' + a : ''}`)}
@@ -134,7 +134,7 @@ const CollectionQuoteItem = ({
                 px={1}
                 py={1}
                 boxShadow={
-                  '0px 1px 2px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)'
+                  '0px 1px 2px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)'
                 }
                 cursor={'pointer'}
                 onClick={() =>

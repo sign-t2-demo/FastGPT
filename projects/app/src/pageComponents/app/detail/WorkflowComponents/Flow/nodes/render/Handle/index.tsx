@@ -25,7 +25,7 @@ const sourceCommonStyle = {
 const handleConnectedStyle = {
   ...sourceCommonStyle,
   borderWidth: '3px',
-  borderColor: '#94B5FF',
+  borderColor: '#E97F8D',
   width: handleSizeConnected,
   height: handleSizeConnected,
   zIndex: 15
@@ -34,7 +34,7 @@ const handleConnectedStyle = {
 const handleHighLightStyle = {
   ...sourceCommonStyle,
   borderWidth: '4px',
-  borderColor: '#487FFF',
+  borderColor: '#D6203A',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

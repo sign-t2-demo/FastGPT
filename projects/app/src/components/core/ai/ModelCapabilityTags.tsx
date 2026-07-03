@@ -85,7 +85,7 @@ const ModelCapabilityTags = ({
         </MyTooltip>
       )}
       {showReasoning && (
-        <Box {...baseCapabilityTagStyles} bg={'#F7F7F7'} borderColor={'#E8EBF0'} color={'#404040'}>
+        <Box {...baseCapabilityTagStyles} bg={'#F7F7F7'} borderColor={'#ECE3D6'} color={'#404040'}>
           {t('common:core.ai.model.reasoning_tag')}
         </Box>
       )}

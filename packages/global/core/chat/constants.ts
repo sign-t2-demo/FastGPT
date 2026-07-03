@@ -51,7 +51,7 @@ export enum ChatSourceTypeEnum {
 export const ChatSourceMap = {
   [ChatSourceEnum.test]: {
     name: i18nT('common:core.chat.logs.test'),
-    color: '#5E8FFF'
+    color: '#DF4F64'
   },
   [ChatSourceEnum.online]: {
     name: i18nT('common:core.chat.logs.online'),
@@ -75,7 +75,7 @@ export const ChatSourceMap = {
   },
   [ChatSourceEnum.official_account]: {
     name: i18nT('common:core.chat.logs.official_account'),
-    color: '#FDB022'
+    color: '#E7B40D'
   },
   [ChatSourceEnum.wecom]: {
     name: i18nT('common:core.chat.logs.wecom'),

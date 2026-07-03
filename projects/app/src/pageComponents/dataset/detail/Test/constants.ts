@@ -22,5 +22,5 @@ export const searchTestImageThumbProps = {
   borderColor: 'borderColor.low',
   borderRadius: '8px',
   boxShadow:
-    '0px 4.28571px 10.7143px rgba(19, 51, 107, 0.08), 0px 0px 1.07143px rgba(19, 51, 107, 0.08)'
+    '0px 4.28571px 10.7143px rgba(74, 58, 40, 0.08), 0px 0px 1.07143px rgba(74, 58, 40, 0.08)'
 } as const;

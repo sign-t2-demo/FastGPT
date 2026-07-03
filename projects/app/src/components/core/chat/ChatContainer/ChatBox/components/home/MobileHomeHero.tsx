@@ -18,7 +18,7 @@ const MobileHomeHero = () => {
         fallbackSrc={DEFAULT_LOGO_BANNER_COLLAPSED_URL}
       />
       <Box
-        color="#111824"
+        color="#1F1A17"
         fontFamily='"PingFang SC"'
         fontSize="32px"
         fontStyle="normal"

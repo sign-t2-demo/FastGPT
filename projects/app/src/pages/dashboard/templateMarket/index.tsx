@@ -128,7 +128,7 @@ const TemplateMarket = ({
           bgPosition={'top'}
           bgRepeat={'no-repeat'}
           _hover={{
-            boxShadow: '0 1px 2px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.15)'
+            boxShadow: '0 1px 2px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.15)'
           }}
         >
           <HStack>

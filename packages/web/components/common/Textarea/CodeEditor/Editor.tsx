@@ -142,7 +142,7 @@ const MyEditor = ({
           'editor.background': '#ffffff00',
           'editorLineNumber.foreground': '#aaa',
           'editorOverviewRuler.border': '#ffffff00',
-          'editor.lineHighlightBackground': '#F7F8FA',
+          'editor.lineHighlightBackground': '#F4EFE7',
           'scrollbarSlider.background': '#E8EAEC',
           'editorIndentGuide.activeBackground': '#ddd',
           'editorIndentGuide.background': '#eee'

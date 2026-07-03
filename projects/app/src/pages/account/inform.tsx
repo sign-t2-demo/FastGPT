@@ -21,14 +21,14 @@ const InformTable = () => {
 
   const textStyles = {
     title: {
-      color: '#111824',
+      color: '#1F1A17',
       fontSize: 'md',
       fontWeight: 'bold',
       lineHeight: 6,
       letterSpacing: '0.15px'
     },
     time: {
-      color: '#667085',
+      color: '#7A6F63',
       fontSize: 'sm',
       lineHeight: 5,
       letterSpacing: '0.25px'
@@ -74,7 +74,7 @@ const InformTable = () => {
               position="relative"
               _notLast={{ mb: 4 }}
               _hover={{
-                border: '1px solid #94B5FF',
+                border: '1px solid #E97F8D',
                 cursor: 'pointer'
               }}
               onClick={() => {
@@ -112,7 +112,7 @@ const InformTable = () => {
                 mt={2}
                 fontSize="sm"
                 fontWeight={400}
-                color="#485264"
+                color="#3A332E"
                 overflow="hidden"
                 maxHeight={24}
                 sx={{

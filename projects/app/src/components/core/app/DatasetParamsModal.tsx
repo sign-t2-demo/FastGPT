@@ -225,7 +225,7 @@ const DatasetParamsModal = ({
                         }}
                       >
                         <SliderTrack bg={'#F9518E'}>
-                          <SliderFilledTrack bg={'#3370FF'} />
+                          <SliderFilledTrack bg={'#C8102E'} />
                         </SliderTrack>
                         <SliderThumb boxShadow={'none'} bg={'none'}>
                           <MyIcon transform={'translateY(10px)'} name={'sliderTag'} w={'1rem'} />

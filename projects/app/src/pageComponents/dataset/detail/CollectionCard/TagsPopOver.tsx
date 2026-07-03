@@ -133,7 +133,7 @@ const TagsPopOver = ({
             ))}
           </Flex>
           {overflowTags.length > 0 && (
-            <Box h={5} px={2} bg={'#1118240D'} borderRadius={'33px'} fontSize={'11px'}>
+            <Box h={5} px={2} bg={'#1F1A170D'} borderRadius={'33px'} fontSize={'11px'}>
               {`+${overflowTags.length}`}
             </Box>
           )}
@@ -176,7 +176,7 @@ const TagsPopOver = ({
                       fontSize={'xs'}
                       px={1}
                       cursor={'pointer'}
-                      _hover={{ bg: '#1118240D', color: '#2B5FD9' }}
+                      _hover={{ bg: '#1F1A170D', color: '#A50C22' }}
                       borderRadius={'xs'}
                       onClick={() => onCreateCollectionTag(searchTagKey)}
                     >
@@ -197,10 +197,10 @@ const TagsPopOver = ({
                       my={1}
                       key={item._id}
                       cursor={'pointer'}
-                      color={tagsList.includes(item.tag) ? '#2B5FD9' : 'myGray.600'}
+                      color={tagsList.includes(item.tag) ? '#A50C22' : 'myGray.600'}
                       _hover={{
-                        bg: '#1118240D',
-                        color: '#2B5FD9',
+                        bg: '#1F1A170D',
+                        color: '#A50C22',
                         ...(tagsList.includes(item.tag) ? {} : { svg: { color: '#F3F3F4' } })
                       }}
                       borderRadius={'xs'}

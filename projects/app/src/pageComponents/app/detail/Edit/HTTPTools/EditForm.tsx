@@ -134,7 +134,7 @@ const EditForm = ({
                         borderColor: 'primary.600',
                         borderBottomColor: 'primary.600',
                         boxShadow:
-                          '0px 4px 4px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)'
+                          '0px 4px 4px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)'
                       }
                     : {
                         borderRadius: 'none',
@@ -145,7 +145,7 @@ const EditForm = ({
                   _hover={{
                     borderRadius: '8px',
                     boxShadow:
-                      '0px 4px 4px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)'
+                      '0px 4px 4px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)'
                   }}
                   cursor={'pointer'}
                   onClick={() => {
@@ -215,7 +215,7 @@ const EditForm = ({
                         p={2}
                         border={'1px solid'}
                         borderColor={'myGray.250'}
-                        hoverBg={'rgba(51, 112, 255, 0.10)'}
+                        hoverBg={'rgba(200, 16, 46, 0.10)'}
                         hoverBorderColor={'primary.300'}
                         tip={t('app:HTTP_tools_detail')}
                         onClick={(e) => {
@@ -231,7 +231,7 @@ const EditForm = ({
                           p={2}
                           border={'1px solid'}
                           borderColor={'myGray.250'}
-                          hoverBg={'rgba(51, 112, 255, 0.10)'}
+                          hoverBg={'rgba(200, 16, 46, 0.10)'}
                           hoverBorderColor={'primary.300'}
                           tip={t('common:Edit')}
                           onClick={(e) => {

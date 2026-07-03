@@ -47,7 +47,7 @@ const AppCard = ({ showSaveStatus, isSaved }: { showSaveStatus: boolean; isSaved
                 px={1}
                 py={1.5}
                 rounded={'4px'}
-                _hover={{ color: 'primary.600', bg: 'rgba(17, 24, 36, 0.05)' }}
+                _hover={{ color: 'primary.600', bg: 'rgba(31, 26, 23, 0.05)' }}
                 cursor={'pointer'}
                 onClick={onOpenInfoEdit}
               >
@@ -60,7 +60,7 @@ const AppCard = ({ showSaveStatus, isSaved }: { showSaveStatus: boolean; isSaved
                 px={1}
                 py={1.5}
                 rounded={'4px'}
-                _hover={{ color: 'primary.600', bg: 'rgba(17, 24, 36, 0.05)' }}
+                _hover={{ color: 'primary.600', bg: 'rgba(31, 26, 23, 0.05)' }}
                 cursor={'pointer'}
                 onClick={onOpenInfoEdit}
               >
@@ -74,7 +74,7 @@ const AppCard = ({ showSaveStatus, isSaved }: { showSaveStatus: boolean; isSaved
                 px={1}
                 py={1.5}
                 rounded={'4px'}
-                _hover={{ color: 'primary.600', bg: 'rgba(17, 24, 36, 0.05)' }}
+                _hover={{ color: 'primary.600', bg: 'rgba(31, 26, 23, 0.05)' }}
                 cursor={'pointer'}
                 onClick={onOpenImport}
               >
@@ -87,7 +87,7 @@ const AppCard = ({ showSaveStatus, isSaved }: { showSaveStatus: boolean; isSaved
                 px={1}
                 py={1.5}
                 rounded={'4px'}
-                _hover={{ color: 'primary.600', bg: 'rgba(17, 24, 36, 0.05)' }}
+                _hover={{ color: 'primary.600', bg: 'rgba(31, 26, 23, 0.05)' }}
                 cursor={'pointer'}
               >
                 <ExportConfigPopover
@@ -109,7 +109,7 @@ const AppCard = ({ showSaveStatus, isSaved }: { showSaveStatus: boolean; isSaved
                     py={1.5}
                     rounded={'4px'}
                     color={'red.600'}
-                    _hover={{ bg: 'rgba(17, 24, 36, 0.05)' }}
+                    _hover={{ bg: 'rgba(31, 26, 23, 0.05)' }}
                     cursor={'pointer'}
                     onClick={onDelApp}
                   >
@@ -185,7 +185,7 @@ const AppCard = ({ showSaveStatus, isSaved }: { showSaveStatus: boolean; isSaved
             border={'1px solid'}
             borderColor={'myGray.250'}
             borderRadius={'sm'}
-            boxShadow={'0 1px 2px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08)'}
+            boxShadow={'0 1px 2px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08)'}
             _hover={{
               bg: 'myGray.50'
             }}

@@ -45,8 +45,8 @@ export const useInteractiveTerminal = ({
       lineHeight: 1.3,
       theme: {
         background: '#ffffff',
-        foreground: '#1d2532',
-        cursor: '#485264',
+        foreground: '#28221D',
+        cursor: '#3A332E',
         cursorAccent: '#ffffff',
         selectionBackground: 'rgba(29, 37, 50, 0.15)',
         black: '#000000',

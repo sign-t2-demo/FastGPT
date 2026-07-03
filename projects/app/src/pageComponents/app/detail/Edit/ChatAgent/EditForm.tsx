@@ -295,7 +295,7 @@ const EditForm = ({
         <Box {...BoxStyles}>
           <Flex alignItems={'center'}>
             <Flex alignItems={'center'} flex={1}>
-              <MyIcon name={'common/skill'} w={'20px'} color={'#487FFF'} />
+              <MyIcon name={'common/skill'} w={'20px'} color={'#D6203A'} />
               <FormLabel ml={2}>{t('skill:associated_skills')}</FormLabel>
             </Flex>
             {isAgentSkillSandboxUnavailable && (

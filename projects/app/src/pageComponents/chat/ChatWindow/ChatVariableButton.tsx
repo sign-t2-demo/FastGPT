@@ -238,7 +238,7 @@ const ChatVariableButton = ({ chatType }: ChatVariableButtonProps) => {
               border="1px solid"
               borderColor="myGray.100"
               borderRadius="12px"
-              boxShadow="0 12px 32px rgba(19, 51, 107, 0.12), 0 0 1px rgba(19, 51, 107, 0.08)"
+              boxShadow="0 12px 32px rgba(74, 58, 40, 0.12), 0 0 1px rgba(74, 58, 40, 0.08)"
               overflow="hidden"
               w="368px"
               maxW="calc(100vw - 48px)"

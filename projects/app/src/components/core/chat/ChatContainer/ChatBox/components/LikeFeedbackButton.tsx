@@ -24,7 +24,7 @@ type LikeFeedbackButtonProps = Pick<BoxProps, 'cursor'> &
     onClick?: () => void;
   };
 
-const blueColors = ['#3370ff', '#4f82ff', '#7ca3ff'];
+const blueColors = ['#C8102E', '#4f82ff', '#7ca3ff'];
 const accentColor = '#efdefd';
 
 const getParticles = (x: number, y: number): Particle[] =>
@@ -207,7 +207,7 @@ const LikeFeedbackButton = ({
       overflow="visible"
       cursor={cursor ?? 'pointer'}
       color={isActive ? 'primary.600' : 'myGray.400'}
-      filter={isActive ? 'drop-shadow(0 6px 12px rgba(51, 112, 255, 0.18))' : undefined}
+      filter={isActive ? 'drop-shadow(0 6px 12px rgba(200, 16, 46, 0.18))' : undefined}
       transition="color 180ms ease, transform 180ms ease, filter 180ms ease"
       _hover={{
         color: 'primary.600',

@@ -117,7 +117,7 @@ const HumanChatBubbleEditForm = ({
         borderRadius={'12px'}
         border={'2px solid'}
         borderColor={'primary.600'}
-        boxShadow={'0 0 0 3px rgba(51, 112, 255, 0.16)'}
+        boxShadow={'0 0 0 3px rgba(200, 16, 46, 0.16)'}
         bg={'white'}
         overflow={'hidden'}
       >

@@ -196,7 +196,7 @@ const NodeTemplateListItem = ({
           <Box
             color={'myGray.500'}
             _hover={{
-              bg: 'var(--light-general-surface-opacity-005, rgba(17, 24, 36, 0.05))',
+              bg: 'var(--light-general-surface-opacity-005, rgba(31, 26, 23, 0.05))',
               color: 'primary.600'
             }}
             p={1}

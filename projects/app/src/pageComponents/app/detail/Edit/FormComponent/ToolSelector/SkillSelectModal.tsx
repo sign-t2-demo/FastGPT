@@ -43,7 +43,7 @@ const SkillSelectModal = ({
       isOpen
       title={t('skill:select_skill')}
       iconSrc="common/skill"
-      iconColor="#487FFF"
+      iconColor="#D6203A"
       onClose={onClose}
       maxW={['90vw', '700px']}
       w={'700px'}

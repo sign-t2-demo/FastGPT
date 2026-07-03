@@ -177,7 +177,7 @@ const MyInfo = ({ onOpenContact }: { onOpenContact: () => void }) => {
 
   const labelStyles: BoxProps = {
     flex: '0 0 80px',
-    color: 'var(--light-general-on-surface-lowest, var(--Gray-Modern-500, #667085))',
+    color: 'var(--light-general-on-surface-lowest, var(--Gray-Modern-500, #7A6F63))',
     fontFamily: '"PingFang SC"',
     fontSize: '14px',
     fontStyle: 'normal',
@@ -187,7 +187,7 @@ const MyInfo = ({ onOpenContact }: { onOpenContact: () => void }) => {
   };
 
   const titleStyles: BoxProps = {
-    color: 'var(--light-general-on-surface, var(--Gray-Modern-900, #111824))',
+    color: 'var(--light-general-on-surface, var(--Gray-Modern-900, #1F1A17))',
     fontFamily: '"PingFang SC"',
     fontSize: '16px',
     fontStyle: 'normal',
@@ -492,7 +492,7 @@ const PlanUsage = () => {
       <Flex fontSize={['md', 'lg']} h={'30px'}>
         <Flex
           alignItems={'center'}
-          color="var(--light-general-on-surface, var(--Gray-Modern-900, #111824))"
+          color="var(--light-general-on-surface, var(--Gray-Modern-900, #1F1A17))"
           fontFamily='"PingFang SC"'
           fontSize="16px"
           fontStyle="normal"
@@ -554,12 +554,12 @@ const PlanUsage = () => {
         </Flex>
         <Box px={[5, 7]} pb={[3, 6]}>
           {isFreeTeam && (
-            <Box mt="2" color={'#485264'} fontSize="sm">
+            <Box mt="2" color={'#3A332E'} fontSize="sm">
               {t('account_info:account_knowledge_base_cleanup_warning')}
             </Box>
           )}
           {(standardPlan.currentSubLevel !== StandardSubLevelEnum.free || isWecomTeam) && (
-            <Flex mt="2" color={'#485264'} fontSize="xs">
+            <Flex mt="2" color={'#3A332E'} fontSize="xs">
               <Box>{t('account_info:package_expiry_time')}:</Box>
               <Box ml={2}>{formatTime2YMD(standardPlan?.expiredTime)}</Box>
             </Flex>

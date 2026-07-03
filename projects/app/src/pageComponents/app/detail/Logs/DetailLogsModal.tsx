@@ -109,7 +109,7 @@ const DetailLogsModal = ({
         w={'100%'}
         maxW={datasetCiteData ? ['100%', '1080px'] : ['100%', '600px']}
         bg={'white'}
-        boxShadow={'0px 8px 24px rgba(19, 51, 107, 0.12), 0px 0px 1px rgba(19, 51, 107, 0.08)'}
+        boxShadow={'0px 8px 24px rgba(74, 58, 40, 0.12), 0px 0px 1px rgba(74, 58, 40, 0.08)'}
         borderRadius={'8px'}
         overflow={'hidden'}
         transition={'.2s ease'}
@@ -227,7 +227,7 @@ const DetailLogsModal = ({
                 h={'98%'}
                 bg={'white'}
                 boxShadow={
-                  '0px 4px 10px 0px rgba(19, 51, 107, 0.10), 0px 0px 1px 0px rgba(19, 51, 107, 0.10)'
+                  '0px 4px 10px 0px rgba(74, 58, 40, 0.10), 0px 0px 1px 0px rgba(74, 58, 40, 0.10)'
                 }
                 borderRadius={'md'}
               >

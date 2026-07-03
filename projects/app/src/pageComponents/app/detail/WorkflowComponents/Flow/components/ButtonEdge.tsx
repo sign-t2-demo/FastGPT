@@ -38,7 +38,7 @@ export const CustomConnectionLine = ({
 
   return (
     <g>
-      <path d={path} fill="none" stroke="#487FFF" strokeWidth={3} />
+      <path d={path} fill="none" stroke="#D6203A" strokeWidth={3} />
     </g>
   );
 };
@@ -170,15 +170,15 @@ const ButtonEdge = (props: EdgeProps) => {
       (edge) => edge.sourceHandle === sourceHandleId && edge.targetHandle === targetHandleId
     );
     if (!targetEdge) {
-      if (highlightEdge) return '#487FFF';
-      return '#94B5FF';
+      if (highlightEdge) return '#D6203A';
+      return '#E97F8D';
     }
 
     // debug mode
     const colorMap = {
-      active: '#487FFF',
-      waiting: '#5E8FFF',
-      skipped: '#8A95A7'
+      active: '#D6203A',
+      waiting: '#DF4F64',
+      skipped: '#A89C8C'
     };
     return colorMap[targetEdge.status];
   }, [highlightEdge, sourceHandleId, targetHandleId, workflowDebugData?.runtimeEdges]);

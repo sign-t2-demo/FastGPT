@@ -15,7 +15,7 @@ const ChatErrorCard = ({ title, message }: { title: string; message: string }) =
       py={'12px'}
     >
       <Flex alignItems={'center'} gap={'8px'} color={'myGray.700'}>
-        <MyIcon name={'common/warn'} w={'18px'} color={'#F79009'} flexShrink={0} />
+        <MyIcon name={'common/warn'} w={'18px'} color={'#D9A400'} flexShrink={0} />
         <Box fontSize={'14px'} lineHeight={'20px'} fontWeight={500}>
           {title}
         </Box>

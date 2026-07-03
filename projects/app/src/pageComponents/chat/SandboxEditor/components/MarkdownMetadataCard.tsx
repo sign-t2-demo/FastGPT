@@ -18,7 +18,7 @@ const MarkdownMetadataCard = ({ metadata }: Props) => {
       boxShadow="0 1px 3px rgba(0, 0, 0, 0.02)"
       transition="all 0.2s ease"
       _hover={{
-        boxShadow: '0 4px 12px rgba(17, 24, 36, 0.05)',
+        boxShadow: '0 4px 12px rgba(31, 26, 23, 0.05)',
         borderColor: 'myGray.300',
         borderLeftColor: 'primary.700'
       }}

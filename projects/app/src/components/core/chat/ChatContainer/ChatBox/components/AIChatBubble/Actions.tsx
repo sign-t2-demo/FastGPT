@@ -226,7 +226,7 @@ const AIChatBubbleActions = ({
               lineHeight={'20px'}
               fontWeight={500}
               cursor={'pointer'}
-              _hover={{ bg: 'rgba(17, 24, 36, 0.05)' }}
+              _hover={{ bg: 'rgba(31, 26, 23, 0.05)' }}
               onClick={() => eventBus.emit(EventNameEnum.sendQuestion, { text })}
             >
               <MyIcon name={'common/arrowRight'} w={'14px'} transform={'rotate(-45deg)'} />

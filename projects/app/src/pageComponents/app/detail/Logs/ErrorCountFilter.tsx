@@ -71,7 +71,7 @@ const ErrorCountFilter = ({
         py={'6px'}
         border={'1px solid #fff'}
         boxShadow={
-          '0px 4px 10px 0px rgba(19, 51, 107, 0.10), 0px 0px 1px 0px rgba(19, 51, 107, 0.10)'
+          '0px 4px 10px 0px rgba(74, 58, 40, 0.10), 0px 0px 1px 0px rgba(74, 58, 40, 0.10)'
         }
         zIndex={99}
       >

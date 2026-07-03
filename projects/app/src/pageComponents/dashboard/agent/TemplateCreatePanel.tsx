@@ -219,7 +219,7 @@ const TemplateCreatePanel = ({ type }: { type: AppTypeEnum | 'all' }) => {
                     bgRepeat={'no-repeat'}
                     _hover={{
                       boxShadow:
-                        '0 1px 2px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.15)',
+                        '0 1px 2px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.15)',
                       '& .template-content': {
                         filter: 'blur(5px)'
                       },
@@ -320,7 +320,7 @@ const TemplateCreatePanel = ({ type }: { type: AppTypeEnum | 'all' }) => {
                         px={5}
                         py={2.5}
                         _hover={{
-                          bg: 'rgba(17, 24, 36, 0.05)'
+                          bg: 'rgba(31, 26, 23, 0.05)'
                         }}
                       >
                         {t('app:templateMarket.Use')}

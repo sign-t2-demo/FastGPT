@@ -807,7 +807,7 @@ export default function SkillPickerPlugin({
           p={1.5}
           borderRadius={'sm'}
           w={columnWidth}
-          boxShadow={'0 4px 10px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.10)'}
+          boxShadow={'0 4px 10px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.10)'}
           bg={'white'}
           flexShrink={0}
           maxH={'350px'}
@@ -903,7 +903,7 @@ export default function SkillPickerPlugin({
                 borderRadius={'sm'}
                 w={'200px'}
                 boxShadow={
-                  '0 4px 10px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.10)'
+                  '0 4px 10px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.10)'
                 }
                 bg={'white'}
                 flexShrink={0}

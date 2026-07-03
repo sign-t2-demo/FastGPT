@@ -309,7 +309,7 @@ const NodeCard = (props: Props) => {
   return (
     <Flex
       outline={selected && (presentationMode || isFolded) ? '16px solid' : undefined}
-      outlineColor={'rgba(17, 24, 36, 0.05)'}
+      outlineColor={'rgba(31, 26, 23, 0.05)'}
       borderRadius={isFolded ? 26 : 'lg'}
       boxShadow={'0 24px 40px 0 rgba(0, 0, 0, 0.05)'}
       {...customStyle}

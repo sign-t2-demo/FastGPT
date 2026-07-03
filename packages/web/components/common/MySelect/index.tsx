@@ -236,7 +236,7 @@ const MySelect = <T = any,>(
             isOpen
               ? isInvalid
                 ? '0px 0px 0px 2.4px rgba(255, 0, 0, 0.15)'
-                : '0px 0px 0px 2.4px rgba(51, 112, 255, 0.15)'
+                : '0px 0px 0px 2.4px rgba(200, 16, 46, 0.15)'
               : 'none'
           }
           opacity={isDisabled ? 0.4 : 1}

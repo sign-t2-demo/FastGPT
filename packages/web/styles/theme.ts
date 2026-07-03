@@ -26,7 +26,7 @@ const { definePartsStyle: tablePart, defineMultiStyleConfig: tableMultiStyle } =
 const { definePartsStyle: radioParts, defineMultiStyleConfig: radioStyle } =
   createMultiStyleConfigHelpers(radioAnatomy.keys);
 
-export const shadowLight = '0px 0px 0px 2.4px rgba(51, 112, 255, 0.15)';
+export const shadowLight = '0px 0px 0px 2.4px rgba(200, 16, 46, 0.15)';
 
 // 按键
 const Button = defineStyleConfig({
@@ -142,7 +142,7 @@ const Button = defineStyleConfig({
       bg: 'primary.600',
       color: 'white',
       border: 'none',
-      boxShadow: '0px 0px 1px 0px rgba(19, 51, 107, 0.08), 0px 1px 2px 0px rgba(19, 51, 107, 0.05)',
+      boxShadow: '0px 0px 1px 0px rgba(74, 58, 40, 0.08), 0px 1px 2px 0px rgba(74, 58, 40, 0.05)',
       _hover: {
         filter: 'brightness(120%)'
       },
@@ -191,7 +191,7 @@ const Button = defineStyleConfig({
       borderColor: 'myGray.250',
       bg: 'white',
       transition: 'background 0.1s',
-      boxShadow: '0px 0px 1px 0px rgba(19, 51, 107, 0.08), 0px 1px 2px 0px rgba(19, 51, 107, 0.05)',
+      boxShadow: '0px 0px 1px 0px rgba(74, 58, 40, 0.08), 0px 1px 2px 0px rgba(74, 58, 40, 0.05)',
       _hover: {
         color: 'primary.600'
       },
@@ -218,7 +218,7 @@ const Button = defineStyleConfig({
       borderColor: 'myGray.250',
       bg: 'white',
       transition: 'background 0.1s',
-      boxShadow: '0px 0px 1px 0px rgba(19, 51, 107, 0.08), 0px 1px 2px 0px rgba(19, 51, 107, 0.05)',
+      boxShadow: '0px 0px 1px 0px rgba(74, 58, 40, 0.08), 0px 1px 2px 0px rgba(74, 58, 40, 0.05)',
       _hover: {
         color: 'primary.600',
         background: 'primary.1',
@@ -237,7 +237,7 @@ const Button = defineStyleConfig({
       borderColor: 'myGray.250',
       bg: 'white',
       transition: 'background 0.1s',
-      boxShadow: '0px 0px 1px 0px rgba(19, 51, 107, 0.08), 0px 1px 2px 0px rgba(19, 51, 107, 0.05)',
+      boxShadow: '0px 0px 1px 0px rgba(74, 58, 40, 0.08), 0px 1px 2px 0px rgba(74, 58, 40, 0.05)',
       _hover: {
         color: 'red.600',
         borderColor: 'red.300',
@@ -314,7 +314,7 @@ const Button = defineStyleConfig({
       bg: 'red.600',
       color: 'white',
       border: 'none',
-      boxShadow: '0px 0px 1px 0px rgba(19, 51, 107, 0.08), 0px 1px 2px 0px rgba(19, 51, 107, 0.05)',
+      boxShadow: '0px 0px 1px 0px rgba(74, 58, 40, 0.08), 0px 1px 2px 0px rgba(74, 58, 40, 0.05)',
       _hover: {
         filter: 'brightness(120%)'
       },
@@ -859,73 +859,73 @@ export const theme = extendTheme({
   },
   colors: {
     myWhite: {
-      100: '#FEFEFE',
-      200: '#FDFDFE',
-      300: '#FBFBFC',
-      400: '#F8FAFB',
-      500: '#F6F8F9',
-      600: '#F4F6F8',
-      700: '#C3C5C6',
-      800: '#929495',
-      900: '#626263',
-      1000: '#313132'
+      100: '#FEFDFC',
+      200: '#FDFBF8',
+      300: '#FBF8F3',
+      400: '#F9F5EE',
+      500: '#F8F3EA',
+      600: '#F6F1E7',
+      700: '#C8C1B5',
+      800: '#979086',
+      900: '#655F56',
+      1000: '#332E29'
     },
     myGray: {
-      '05': 'rgba(17, 24, 36, 0.05)',
-      1: 'rgba(17, 24, 36, 0.1)',
-      15: 'rgba(17, 24, 36, 0.15)',
+      '05': 'rgba(31, 26, 23, 0.05)',
+      1: 'rgba(31, 26, 23, 0.1)',
+      15: 'rgba(31, 26, 23, 0.15)',
 
-      25: '#FBFBFC',
-      50: '#F7F8FA',
-      100: '#F4F4F7',
-      150: '#F0F1F6',
-      200: '#E8EBF0',
-      250: '#DFE2EA',
-      300: '#C4CBD7',
-      400: '#8A95A7',
-      500: '#667085',
-      600: '#485264',
-      700: '#383F50',
-      800: '#1D2532',
-      900: '#111824'
+      25: '#F6F1E7',
+      50: '#F4EFE7',
+      100: '#F2ECE2',
+      150: '#F1EAE0',
+      200: '#ECE3D6',
+      250: '#EADFCE',
+      300: '#CBBFAC',
+      400: '#A89C8C',
+      500: '#7A6F63',
+      600: '#3A332E',
+      700: '#322B26',
+      800: '#28221D',
+      900: '#1F1A17'
     },
     primary: {
-      1: 'rgba(51, 112, 255, 0.1)',
-      '015': 'rgba(51, 112, 255, 0.15)',
-      3: 'rgba(51, 112, 255, 0.3)',
-      5: 'rgba(51, 112, 255, 0.5)',
-      7: 'rgba(51, 112, 255, 0.7)',
-      9: 'rgba(51, 112, 255, 0.9)',
+      1: 'rgba(200, 16, 46, 0.1)',
+      '015': 'rgba(200, 16, 46, 0.15)',
+      3: 'rgba(200, 16, 46, 0.3)',
+      5: 'rgba(200, 16, 46, 0.5)',
+      7: 'rgba(200, 16, 46, 0.7)',
+      9: 'rgba(200, 16, 46, 0.9)',
 
-      50: '#F0F4FF',
-      100: '#E1EAFF',
-      200: '#C5D7FF',
-      300: '#94B5FF',
-      400: '#5E8FFF',
-      500: '#487FFF',
-      600: '#3370FF',
-      700: '#2B5FD9',
-      800: '#2450B5',
-      900: '#1D4091'
+      50: '#FCE9EB',
+      100: '#F8D3D8',
+      200: '#F2ACB5',
+      300: '#E97F8D',
+      400: '#DF4F64',
+      500: '#D6203A',
+      600: '#C8102E',
+      700: '#A50C22',
+      800: '#83091B',
+      900: '#660714'
     },
     blue: {
-      1: 'rgba(51, 112, 255, 0.1)',
-      '015': 'rgba(51, 112, 255, 0.15)',
-      3: 'rgba(51, 112, 255, 0.3)',
-      5: 'rgba(51, 112, 255, 0.5)',
-      7: 'rgba(51, 112, 255, 0.7)',
-      9: 'rgba(51, 112, 255, 0.9)',
+      1: 'rgba(200, 16, 46, 0.1)',
+      '015': 'rgba(200, 16, 46, 0.15)',
+      3: 'rgba(200, 16, 46, 0.3)',
+      5: 'rgba(200, 16, 46, 0.5)',
+      7: 'rgba(200, 16, 46, 0.7)',
+      9: 'rgba(200, 16, 46, 0.9)',
 
-      50: '#F0F4FF',
-      100: '#E1EAFF',
-      200: '#C5D7FF',
-      300: '#94B5FF',
-      400: '#5E8FFF',
-      500: '#487FFF',
-      600: '#3370FF',
-      700: '#2B5FD9',
-      800: '#2450B5',
-      900: '#1D4091'
+      50: '#FCE9EB',
+      100: '#F8D3D8',
+      200: '#F2ACB5',
+      300: '#E97F8D',
+      400: '#DF4F64',
+      500: '#D6203A',
+      600: '#C8102E',
+      700: '#A50C22',
+      800: '#83091B',
+      900: '#660714'
     },
     red: {
       1: 'rgba(217,45,32,0.1)',
@@ -951,24 +951,24 @@ export const theme = extendTheme({
       200: '#B9F4D1',
       300: '#76E4AA',
       400: '#32D583',
-      500: '#12B76A',
-      600: '#039855',
-      700: '#027A48',
-      800: '#05603A',
-      900: '#054F31'
+      500: '#2F9155',
+      600: '#217A45',
+      700: '#1B6338',
+      800: '#15502D',
+      900: '#104123'
     },
     yellow: {
       25: '#FFFDFA',
       50: '#FFFAEB',
       100: '#FEF0C7',
-      200: '#FEDF89',
-      300: '#F5C149',
-      400: '#FDB022',
-      500: '#F79009',
-      600: '#DC6803',
-      700: '#B54708',
-      800: '#93370D',
-      900: '#7A2E0E'
+      200: '#FBE28A',
+      300: '#F5C518',
+      400: '#E7B40D',
+      500: '#D9A400',
+      600: '#B58800',
+      700: '#8F6B00',
+      800: '#6F5300',
+      900: '#5A4300'
     },
     adora: {
       25: '#FCFCFF',
@@ -984,10 +984,10 @@ export const theme = extendTheme({
       900: '#42387D'
     },
     borderColor: {
-      low: '#E8EBF0',
-      base: '#DFE2EA',
-      high: '#C4CBD7',
-      highest: '#8A95A7'
+      low: '#ECE3D6',
+      base: '#EADFCE',
+      high: '#CBBFAC',
+      highest: '#A89C8C'
     }
   },
   fonts: {
@@ -1007,10 +1007,10 @@ export const theme = extendTheme({
     '6xl': '3.6rem'
   },
   borders: {
-    sm: '1px solid #E8EBF0',
-    base: '1px solid #DFE2EA',
-    md: '1px solid #DAE0E2',
-    lg: '1px solid #D0E0E2'
+    sm: '1px solid #ECE3D6',
+    base: '1px solid #EADFCE',
+    md: '1px solid #E5D8C6',
+    lg: '1px solid #DCCEB9'
   },
   radii: {
     none: '0',
@@ -1023,15 +1023,15 @@ export const theme = extendTheme({
     xxl: '1.25rem'
   },
   shadows: {
-    1: '0 1px 2px 0 rgba(19, 51, 107, 0.05), 0 0 1px 0 rgba(19, 51, 107, 0.08)',
-    1.5: '0px 1px 2px 0px rgba(19, 51, 107, 0.10), 0px 0px 1px 0px rgba(19, 51, 107, 0.15)',
-    2: '0px 4px 4px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)',
-    3: '0px 4px 10px 0px rgba(19, 51, 107, 0.08), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)',
-    3.5: '0px 4px 10px 0px rgba(19, 51, 107, 0.10), 0px 0px 1px 0px rgba(19, 51, 107, 0.10)',
-    4: '0px 12px 16px -4px rgba(19, 51, 107, 0.20), 0px 0px 1px 0px rgba(19, 51, 107, 0.20)',
-    5: '0px 20px 24px -8px rgba(19, 51, 107, 0.15), 0px 0px 1px 0px rgba(19, 51, 107, 0.15)',
-    6: '0px 24px 48px -12px rgba(19, 51, 107, 0.20), 0px 0px 1px 0px rgba(19, 51, 107, 0.20)',
-    7: '0px 32px 64px -12px rgba(19, 51, 107, 0.20), 0px 0px 1px 0px rgba(19, 51, 107, 0.20)',
+    1: '0 1px 2px 0 rgba(74, 58, 40, 0.05), 0 0 1px 0 rgba(74, 58, 40, 0.08)',
+    1.5: '0px 1px 2px 0px rgba(74, 58, 40, 0.10), 0px 0px 1px 0px rgba(74, 58, 40, 0.15)',
+    2: '0px 4px 4px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)',
+    3: '0px 4px 10px 0px rgba(74, 58, 40, 0.08), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)',
+    3.5: '0px 4px 10px 0px rgba(74, 58, 40, 0.10), 0px 0px 1px 0px rgba(74, 58, 40, 0.10)',
+    4: '0px 12px 16px -4px rgba(74, 58, 40, 0.20), 0px 0px 1px 0px rgba(74, 58, 40, 0.20)',
+    5: '0px 20px 24px -8px rgba(74, 58, 40, 0.15), 0px 0px 1px 0px rgba(74, 58, 40, 0.15)',
+    6: '0px 24px 48px -12px rgba(74, 58, 40, 0.20), 0px 0px 1px 0px rgba(74, 58, 40, 0.20)',
+    7: '0px 32px 64px -12px rgba(74, 58, 40, 0.20), 0px 0px 1px 0px rgba(74, 58, 40, 0.20)',
     focus: shadowLight,
     outline: 'none'
   },
@@ -1043,10 +1043,10 @@ export const theme = extendTheme({
     '2xl': '2100px'
   },
   lgColor: {
-    activeBlueGradient: 'linear-gradient(to bottom right, #d6e8ff 0%, #f0f7ff 100%)',
-    hoverBlueGradient: 'linear-gradient(to top left, #d6e8ff 0%, #f0f7ff 100%)',
-    primary: 'linear-gradient(to bottom right, #2152d9 0%,#3370ff 40%, #4e83fd 100%)',
-    primary2: 'linear-gradient(to bottom right, #2152d9 0%,#3370ff 30%,#4e83fd 80%, #85b1ff 100%)'
+    activeBlueGradient: 'linear-gradient(to bottom right, #F7D3D8 0%, #FCF0F1 100%)',
+    hoverBlueGradient: 'linear-gradient(to top left, #F7D3D8 0%, #FCF0F1 100%)',
+    primary: 'linear-gradient(to bottom right, #A50C22 0%,#C8102E 40%, #D6203A 100%)',
+    primary2: 'linear-gradient(to bottom right, #A50C22 0%,#C8102E 30%,#D6203A 80%, #E8556B 100%)'
   },
   components: {
     Button,

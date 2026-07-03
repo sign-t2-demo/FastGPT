@@ -40,7 +40,7 @@ const ScoreTag = (score: { primaryScore?: ScoreItemType; secondaryScore: ScoreIt
                           {...(scoreTheme[i] && {
                             colorScheme: scoreTheme[i].colorScheme
                           })}
-                          bg="#E8EBF0"
+                          bg="#ECE3D6"
                         />
                       )}
                     </Box>

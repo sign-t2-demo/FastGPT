@@ -92,11 +92,11 @@ const FileTabs = ({ openedFiles, activeFilePath, setActiveFilePath, closeFile }:
               borderRadius="4px"
               boxShadow={
                 active
-                  ? '0px 0px 1px rgba(19, 51, 107, 0.15), 0px 1px 2px rgba(19, 51, 107, 0.1)'
+                  ? '0px 0px 1px rgba(74, 58, 40, 0.15), 0px 1px 2px rgba(74, 58, 40, 0.1)'
                   : 'none'
               }
               _hover={{
-                bg: active ? 'white' : 'rgba(17, 24, 36, 0.05)'
+                bg: active ? 'white' : 'rgba(31, 26, 23, 0.05)'
               }}
               userSelect={'none'}
             >

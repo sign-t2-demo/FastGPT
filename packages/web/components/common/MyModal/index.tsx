@@ -75,8 +75,8 @@ const MyModal = ({
           <ModalHeader
             display={'flex'}
             alignItems={'center'}
-            background={'#FBFBFC'}
-            borderBottom={'1px solid #F4F6F8'}
+            background={'#FBF8F3'}
+            borderBottom={'1px solid #F6F1E7'}
             roundedTop={'lg'}
             py={'10px'}
             fontSize={'md'}

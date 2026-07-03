@@ -79,7 +79,7 @@ const ImportantInform = ({
             pt={0}
             borderRadius={'4px'}
             _hover={{
-              backgroundColor: 'rgba(17, 24, 36, 0.05)'
+              backgroundColor: 'rgba(31, 26, 23, 0.05)'
             }}
             onClick={() => onClickClose(inform._id)}
           >

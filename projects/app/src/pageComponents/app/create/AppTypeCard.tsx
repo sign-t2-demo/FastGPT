@@ -32,7 +32,7 @@ const AppTypeCard = ({
       onClick={onClick}
       boxShadow={'none'}
       _hover={{
-        boxShadow: '0 4px 10px 0 rgba(19, 51, 107, 0.08), 0 0 1px 0 rgba(19, 51, 107, 0.08)'
+        boxShadow: '0 4px 10px 0 rgba(74, 58, 40, 0.08), 0 0 1px 0 rgba(74, 58, 40, 0.08)'
       }}
     >
       <MyIcon name={option.icon as any} w={'6'} borderRadius={4} />

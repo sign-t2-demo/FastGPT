@@ -420,7 +420,7 @@ const ManualToolModal = ({
                         bg={bodyType === type ? 'white' : 'none'}
                         boxShadow={
                           bodyType === type
-                            ? '0 1px 2px 0 rgba(19, 51, 107, 0.10), 0 0 1px 0 rgba(19, 51, 107, 0.15)'
+                            ? '0 1px 2px 0 rgba(74, 58, 40, 0.10), 0 0 1px 0 rgba(74, 58, 40, 0.15)'
                             : ''
                         }
                         onClick={() => setValue('bodyType', type)}

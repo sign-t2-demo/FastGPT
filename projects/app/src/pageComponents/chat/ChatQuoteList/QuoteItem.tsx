@@ -41,7 +41,7 @@ const QuoteItem = ({
         }
       }}
       _hover={{
-        bg: 'rgba(17, 24, 36, 0.05)',
+        bg: 'rgba(31, 26, 23, 0.05)',
         '& .hover-data': { visibility: 'visible' }
       }}
       onClick={onClick}
@@ -105,7 +105,7 @@ const QuoteItem = ({
             px={1}
             py={1}
             boxShadow={
-              '0px 1px 2px 0px rgba(19, 51, 107, 0.05), 0px 0px 1px 0px rgba(19, 51, 107, 0.08)'
+              '0px 1px 2px 0px rgba(74, 58, 40, 0.05), 0px 0px 1px 0px rgba(74, 58, 40, 0.08)'
             }
             cursor={'pointer'}
             onClick={(e) => {

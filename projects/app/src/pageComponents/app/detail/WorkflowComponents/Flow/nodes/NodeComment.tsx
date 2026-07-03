@@ -85,7 +85,7 @@ const NodeComment = ({ data }: NodeProps<FlowNodeItemType>) => {
           border: 'none',
           rounded: 'none',
           boxShadow:
-            '0px 4px 10px 0px rgba(19, 51, 107, 0.10), 0px 0px 1px 0px rgba(19, 51, 107, 0.10)'
+            '0px 4px 10px 0px rgba(74, 58, 40, 0.10), 0px 0px 1px 0px rgba(74, 58, 40, 0.10)'
         }}
       >
         <Box

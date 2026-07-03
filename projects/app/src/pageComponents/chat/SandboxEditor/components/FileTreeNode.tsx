@@ -106,7 +106,7 @@ const FileTreeNode = ({
         opacity={isDragging ? 0.4 : 1}
         _hover={{ bg: hoverBg }}
         bg={nodeBg}
-        border={isOverNode ? '1px dashed #2B5FD9' : '1px solid transparent'}
+        border={isOverNode ? '1px dashed #A50C22' : '1px solid transparent'}
         borderRadius="xs"
         onClick={(e) => {
           if (!node || !node.path) return;

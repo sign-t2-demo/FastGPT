@@ -176,7 +176,7 @@ const TagMultiSelect = ({
       h={['28px', '36px']}
       fontSize={'sm'}
       _hover={{
-        boxShadow: '0px 0px 0px 2.4px rgba(51, 112, 255, 0.15)',
+        boxShadow: '0px 0px 0px 2.4px rgba(200, 16, 46, 0.15)',
         borderColor: 'primary.300'
       }}
     >
@@ -227,7 +227,7 @@ const TagMultiSelect = ({
                 alignItems={'center'}
                 h={5}
                 px={2}
-                bg={'#1118240D'}
+                bg={'#1F1A170D'}
                 borderRadius={'33px'}
                 fontSize={'xs'}
                 color={'myGray.600'}
@@ -299,7 +299,7 @@ const TagMultiSelect = ({
                 fontSize={'sm'}
                 px={1}
                 cursor={'pointer'}
-                _hover={{ bg: '#1118240D', color: 'primary.700' }}
+                _hover={{ bg: '#1F1A170D', color: 'primary.700' }}
                 borderRadius={'xs'}
                 onClick={onClickCreate}
               >
@@ -330,7 +330,7 @@ const TagMultiSelect = ({
                     cursor={'pointer'}
                     color={checked ? 'primary.700' : 'myGray.600'}
                     _hover={{
-                      bg: '#1118240D',
+                      bg: '#1F1A170D',
                       color: 'primary.700',
                       ...(checked ? {} : { svg: { color: '#F3F3F4' } })
                     }}
@@ -365,11 +365,11 @@ const TagMultiSelect = ({
           </Box>
 
           {showFooter && (
-            <Flex borderTop={'1px solid #E8EBF0'} color={'myGray.600'}>
+            <Flex borderTop={'1px solid #ECE3D6'} color={'myGray.600'}>
               <Button
                 w={'full'}
                 fontSize={'sm'}
-                _hover={{ bg: '#1118240D', color: 'primary.700' }}
+                _hover={{ bg: '#1F1A170D', color: 'primary.700' }}
                 borderRadius={'none'}
                 borderBottomLeftRadius={'md'}
                 variant={'unstyled'}
@@ -385,7 +385,7 @@ const TagMultiSelect = ({
               <Button
                 w={'full'}
                 fontSize={'sm'}
-                _hover={{ bg: '#1118240D', color: 'primary.700' }}
+                _hover={{ bg: '#1F1A170D', color: 'primary.700' }}
                 borderRadius={'none'}
                 borderBottomRightRadius={'md'}
                 variant={'unstyled'}

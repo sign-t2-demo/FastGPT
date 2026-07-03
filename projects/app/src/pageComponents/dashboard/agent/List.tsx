@@ -659,7 +659,7 @@ const ForbiddenCreateButton = () => {
             backgroundSize: '100% 100%'
           }}
         >
-          <MyIcon name={'common/disable'} w={'26px'} color={'#DFE2EA'} zIndex={1} />
+          <MyIcon name={'common/disable'} w={'26px'} color={'#EADFCE'} zIndex={1} />
           <Box color={'myGray.500'} fontSize={'11px'} fontWeight={'medium'} zIndex={1}>
             {t('app:has_no_create_per')}
           </Box>

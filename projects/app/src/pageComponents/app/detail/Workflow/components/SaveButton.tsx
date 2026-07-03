@@ -85,7 +85,7 @@ const SaveButton = ({
               gap={2}
               p={1.5}
               rounded={'4px'}
-              _hover={{ color, bg: 'rgba(17, 24, 36, 0.05)' }}
+              _hover={{ color, bg: 'rgba(31, 26, 23, 0.05)' }}
               cursor={'pointer'}
               isLoading={isLoading}
               onClick={async () => {
@@ -106,7 +106,7 @@ const SaveButton = ({
             <HStack
               p={1.5}
               rounded={'4px'}
-              _hover={{ color, bg: 'rgba(17, 24, 36, 0.05)' }}
+              _hover={{ color, bg: 'rgba(31, 26, 23, 0.05)' }}
               cursor={'pointer'}
               onClick={() => {
                 const canOpen = !checkData || checkData();

@@ -10,7 +10,7 @@ const Container = ({ children, ...props }: BoxProps) => {
       p={4}
       position={'relative'}
       bg={'myGray.25'}
-      border={'1px solid #F0F1F6'}
+      border={'1px solid #F1EAE0'}
       borderRadius={'md'}
       {...props}
     >
