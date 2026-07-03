@@ -123,13 +123,13 @@
         </filter>
         <linearGradient id="paint0_linear_528_1010" x1="177.112" y1="34.0066" x2="177.112" y2="38.9275"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#326DFF" />
-            <stop offset="1" stop-color="#8EAEFF" />
+            <stop stop-color="#C8102E" />
+            <stop offset="1" stop-color="#E97F8D" />
         </linearGradient>
         <linearGradient id="paint1_linear_528_1010" x1="177.908" y1="36.1102" x2="177.908" y2="37.3095"
             gradientUnits="userSpaceOnUse">
-            <stop stop-color="#326DFF" />
-            <stop offset="1" stop-color="#8EAEFF" />
+            <stop stop-color="#C8102E" />
+            <stop offset="1" stop-color="#E97F8D" />
         </linearGradient>
         <clipPath id="clip0_528_1010">
             <rect x="0.5" width="235" height="134" rx="8" fill="white" />

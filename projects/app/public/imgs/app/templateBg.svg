@@ -15,12 +15,12 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_29654_18158" x1="232.697" y1="103.407" x2="331.64" y2="-64.2216" gradientUnits="userSpaceOnUse">
-<stop stop-color="#2643FF" stop-opacity="0"/>
-<stop offset="1" stop-color="#2643FF"/>
+<stop stop-color="#DF4F64" stop-opacity="0"/>
+<stop offset="1" stop-color="#DF4F64"/>
 </linearGradient>
 <linearGradient id="paint1_linear_29654_18158" x1="256.071" y1="66.4159" x2="297.946" y2="-40.2204" gradientUnits="userSpaceOnUse">
 <stop stop-color="#26FFF4" stop-opacity="0"/>
-<stop offset="1" stop-color="#2643FF"/>
+<stop offset="1" stop-color="#DF4F64"/>
 </linearGradient>
 <radialGradient id="paint2_radial_29654_18158" cx="0" cy="0" r="1" gradientTransform="matrix(-160.499 125.686 -44.4503 -37.1762 356.837 -5.4646)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#E39DFF"/>
@@ -44,7 +44,7 @@
 </linearGradient>
 <linearGradient id="paint7_linear_29654_18158" x1="322" y1="18" x2="322" y2="26" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
-<stop offset="1" stop-color="#EFF2FF"/>
+<stop offset="1" stop-color="#FCF0F1"/>
 </linearGradient>
 <linearGradient id="paint8_linear_29654_18158" x1="311" y1="60" x2="311" y2="70" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>

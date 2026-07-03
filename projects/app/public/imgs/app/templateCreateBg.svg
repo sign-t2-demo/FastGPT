@@ -11,12 +11,12 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear_29676_18182" x1="195.788" y1="53.3363" x2="233.088" y2="-49.7506" gradientUnits="userSpaceOnUse">
-<stop stop-color="#2643FF" stop-opacity="0"/>
-<stop offset="1" stop-color="#2643FF"/>
+<stop stop-color="#DF4F64" stop-opacity="0"/>
+<stop offset="1" stop-color="#DF4F64"/>
 </linearGradient>
 <linearGradient id="paint1_linear_29676_18182" x1="215.454" y1="34.2566" x2="229.899" y2="-25.7495" gradientUnits="userSpaceOnUse">
 <stop stop-color="#26FFF4" stop-opacity="0"/>
-<stop offset="1" stop-color="#2643FF"/>
+<stop offset="1" stop-color="#DF4F64"/>
 </linearGradient>
 <radialGradient id="paint2_radial_29676_18182" cx="0" cy="0" r="1" gradientTransform="matrix(-135.041 64.8274 -37.3999 -19.1751 300.237 -2.81858)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#E39DFF"/>
