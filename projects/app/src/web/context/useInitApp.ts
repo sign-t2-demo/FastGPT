@@ -96,7 +96,7 @@ export const useInitApp = () => {
       feConfigs: { scripts, isPlus, systemTitle }
     } = await clientInitData();
 
-    setTitle(systemTitle || 'FastGPT');
+    setTitle(systemTitle || 'SignGPT');
 
     // log fastgpt
     if (!isPlus) {

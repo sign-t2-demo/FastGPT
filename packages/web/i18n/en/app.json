@@ -151,7 +151,7 @@
   "export_log_filename": "{{name}} chat logs.csv",
   "extract_chat_files": "Extract chat files",
   "extract_chat_files_tip": "When enabled, if the user question is shorter than 500 characters, multimodal files linked in the question are parsed and sent to the model for recognition.",
-  "fastgpt_marketplace": "FastGPT plug-in market",
+  "fastgpt_marketplace": "SignGPT plug-in market",
   "file_recover": "File will overwrite current content",
   "file_upload": "File Upload",
   "file_upload_tip": "Once enabled, you can configure the types of files that users can upload. Files are saved along with the conversation; deleting the conversation or deleting the application will clear the files. To ensure a good user experience, please select an AI model with a longer context length when using it.",

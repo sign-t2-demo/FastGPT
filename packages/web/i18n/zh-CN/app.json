@@ -151,7 +151,7 @@
   "export_log_filename": "{{name}} 对话日志.csv",
   "extract_chat_files": "提取对话文件",
   "extract_chat_files_tip": "开启后，当用户问题少于 500 字，将读取并解析用户问题中以链接形式存在的多模态文件，并发送给模型识别。",
-  "fastgpt_marketplace": "FastGPT 插件市场",
+  "fastgpt_marketplace": "SignGPT 插件市场",
   "file_recover": "文件将覆盖当前内容",
   "file_upload": "文件上传",
   "file_upload_tip": "开启后，可以配置用户可上传的文件类型。文件跟随对话保存，删除对话或删除应用均会清理文件。为保证使用体验，使用时请选择上下文长度较大的AI模型。",
